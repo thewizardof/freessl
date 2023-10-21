@@ -11,4 +11,5 @@ cd C:\Program Files (x86)\Certbot
 ```
 certbot certonly --manual --preferred-challenges=dns   --email youremailaddress --server https://acme-v02.api.letsencrypt.org/directory -d *.yourdomain.com -d yourdomain.com
 ```
+At first run, you will be asked to accept the Terms of Service and you should write "Y" and hit Enter.
 
